@@ -1,0 +1,161 @@
+/* ==================================import other css file  ==============================================*/
+@import url("./utalites.css");
+/* ==================================import other css file  End==============================================*/
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family:"Poppins",Arial, Helvetica, sans-serif;
+}
+a{
+    text-decoration: none;
+}
+hr{
+    color: #93c4fc;
+}
+.vr{
+    color: #93c4fc; 
+}
+.box_Shadow{
+    box-shadow: 0 1px 5px #afcffe4a
+}
+p,li{
+    font-size: 13px;
+}
+h6{
+    font-size: 14px; 
+}
+h2{
+    font-size: 22px;
+}
+h4{
+    font-size:18px ;
+}
+h3{
+    font-size: 20px;
+}
+.btnPrimaryColor{
+    background-color: var(--primary);
+}
+label{
+    font-size:12px ;
+}
+
+.btnPrimaryColor:hover{
+    background-color: transparent;
+    border: 1px solid var(--primary);
+    color: var(--primary);
+}
+.btnPrimaryColorOutline{
+    border: 1px solid var(--primary);
+    color: var(--primary);
+}
+.btnPrimaryColorOutline:hover{
+    background-color: var(--primary);
+    color: var(--pure);
+}
+.navBorder{
+    border: 1px solid #D8E9FF;
+}
+.bgPrimary{
+    background-color: var(--primary_bg);
+}
+.colorPrimary{
+   color: var(--primary);
+}
+.paddingNavbuttons{
+    padding: 0px 0px 20px 20px;
+}
+.header_color{
+    color: var(--textColor);
+}
+
+.indexBgColor{
+    color: var(--primary);
+    background-color: var(--indigo);
+    border: 2px solid #93c4fc;
+}
+.factorBgColor{
+    color: #D9A900;
+    background-color: #FFF4CC;
+    border: 2px solid #fae388;
+}
+
+/* =========================================Main column=============================== */
+.bgSuccessDiv{
+    background-color: var(--bgsuccesslight);
+    color: var(--successColor);
+    border: 1px solid var(--bgsuccessborder);
+}
+
+.successcolor_is{
+    color: var(--successColor);
+}
+.btnSuccessBG{
+    background-color: var(--successColor);
+}
+.btnSuccessBG:hover{
+    background-color: #02a0a3;
+}
+.btnSecondayColorOutline{
+      border: 1px solid var(--bgsuccessborder);
+    color: var(--bgsuccessborder);
+}
+.btnSecondayColorOutline:hover{
+    background-color: var(--successColor);
+  color: var(--pure);
+}
+
+.Meuelist.active{
+    background-color: var(--primary) !important;
+    color: var(--pure);
+}
+
+/* ================================================ */
+.accordion-button{
+    background-color: transparent !important;
+    border: none;
+}
+.cursorPointer{
+    cursor: pointer;
+}
+
+/* =====================Medai Quriees =================================*/
+/* @media (min-width: 768px){
+     .container {
+        max-width: 942px;
+    }
+}
+@media (min-width: 768px){
+    .container {
+       max-width: 942px;
+   }
+} */
+ @media (max-width:780px) {
+    .container {
+        max-width: 942px;
+    }
+    
+}
+
+@media (max-width:576px) {
+    .container {
+        max-width: 725px;
+    }
+    
+} 
+/*
+@media (min-width:1080px) {
+    .container {
+        max-width: 1050px;
+    }
+    
+} 
+@media (min-width:1180px) {
+    .container {
+        max-width: 1150px;
+    }
+    
+}  */
+
+
